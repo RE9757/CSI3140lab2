@@ -1,0 +1,20 @@
+/*Group of 36
+  Zhong Tao 300222579 
+  Fengshou Xu 300036335 */
+
+
+
+.square-animation {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    animation: square-move 4s infinite;
+}
+
+@keyframes square-move {
+    0%, 100% { top: 0; left: 0; }
+    25% { top: 0; left: 100px; }
+    50% { top: 100px; left: 100px; }
+    75% { top: 100px; left: 0; }
+}

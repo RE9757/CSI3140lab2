@@ -1,0 +1,14 @@
+/*Group of 36
+  Zhong Tao 300222579 
+  Fengshou Xu 300036335 */
+
+
+
+.radial-gradient {
+    width: 500px;
+    height: 500px;
+    /*background: radial-gradient(at bottom left, red, yellow, blue);*/
+    background: -webkit-radial-gradient(center, yellow, red);
+    background: -moz-radial-gradient(center, yellow, red);
+    background: radial-gradient(center, yellow, red);
+}

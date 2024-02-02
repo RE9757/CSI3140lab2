@@ -1,0 +1,20 @@
+/*Group of 36
+  Zhong Tao 300222579 
+  Fengshou Xu 300036335 */
+
+
+.nav-button {
+    display: inline-block;
+    border: 1px solid #000; 
+    background-color: #007BFF; 
+    color: white; 
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav-button:hover {
+    background-color: #0056b3; 
+    color: #FFF; 
+}
